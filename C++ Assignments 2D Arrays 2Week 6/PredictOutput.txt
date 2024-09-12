@@ -1,0 +1,15 @@
+int main(){
+int a[][2] = {{1,2},{3,4}};
+int i, j;
+for (i = 0; i < 2; i++)
+for (j = 0; j < 2; j++)
+cout << a[i][j];
+return 0;
+}
+
+The output of the above code is 1234
+
+The 2D array a is initialized with the values
+The outer loop runs for i = 0 and i = 1
+The inner loop runs for j = 0 and j = 1
+In each iteration of the inner loop, it prints the value of a[i][j]
